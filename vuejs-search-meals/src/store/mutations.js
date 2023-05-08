@@ -1,0 +1,15 @@
+export function setSearchMeals(state, meals){
+  state.searchedMeals = meals || []
+}
+export function setMealsByLetter(state, meals){
+  state.mealsByLetter = meals || []
+}
+export function setMealsByIngredients(state, meals){
+  state.mealsByIngredient = meals || []
+}
+export function setIngredient(state, ingredient){
+  state.ingredient = ingredient
+}
+export function setIngredientByRandomMeals(state, meals){
+  state.RandomMeal = meals
+}
